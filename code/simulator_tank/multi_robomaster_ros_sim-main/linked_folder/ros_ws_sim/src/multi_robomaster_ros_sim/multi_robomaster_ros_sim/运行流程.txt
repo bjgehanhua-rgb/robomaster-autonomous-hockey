@@ -1,0 +1,23 @@
+终端1：
+若未改环境代码：
+cd "/mnt/c/Users/bjgeh/Desktop/ECE 486/Project/code/simulator_tank/multi_robomaster_ros_sim-main/linked_folder/ros_ws_sim"
+source install/setup.bash
+ros2 run multi_robomaster_ros_sim simulator
+若已改环境代码：
+cd "/mnt/c/Users/bjgeh/Desktop/ECE 486/Project/code/simulator_tank/multi_robomaster_ros_sim-main/linked_folder/ros_ws_sim"
+colcon build
+source install/setup.bash
+ros2 run multi_robomaster_ros_sim simulator
+
+终端2：
+cd "/mnt/c/Users/bjgeh/Desktop/ECE 486/Project/code/simulator_tank/multi_robomaster_ros_sim-main/linked_folder/ros_ws_sim/src/multi_robomaster_ros_sim/multi_robomaster_ros_sim"
+source /opt/ros/humble/setup.bash
+运行脚本（改成你脚本的名称）：
+python3 controller5.py
+
+若机器人不动：
+终端3：
+ros2 daemon stop
+ros2 daemon start
+或：
+ros2 topic echo --once /vrpn_mocap/dji_robot_6/pose --no-daemon

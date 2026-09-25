@@ -1,0 +1,40 @@
+# ROS2 / colcon generated files
+build/
+install/
+log/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
+
+# Course-provided materials / archives
+*.zip
+ros2_exercise_basic/
+ece486_ece687_project_code_instructions/
+ece486_ece687_project_README_linux.md
+ece486_ece687_project_description.pdf
+example_node_dji_ep.py
+
+# Local / non-project files
+Special Situation Explaination.docx
+开启.txt
+测试Letax文档极限.pdf

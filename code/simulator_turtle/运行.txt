@@ -1,0 +1,13 @@
+第一个Terminal：
+启动模拟器：
+ros2 run turtlesim turtlesim_node
+
+第二个Terminal：
+启动环境：
+cd "/mnt/c/Users/bjgeh/Desktop/ECE 486/Project/code/Simulator"
+python3 turtlesim_hockey_world.py
+
+第三个Terminal：
+运行代码：
+cd "/mnt/c/Users/bjgeh/Desktop/ECE 486/Project/code/Simulator"
+python3 rs3.py
